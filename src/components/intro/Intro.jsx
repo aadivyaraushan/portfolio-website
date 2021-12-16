@@ -12,7 +12,7 @@ export default function Intro() {
     useEffect(() => {
         init(textRef.current, {
             showCursor: true,
-            strings: ["Leader", "Debater", "Web Developer", "Game Developer", "Graphic Designer", "Content Creator", "Creator."],
+            strings: ["Web Developer", "Game Developer", "Graphic Designer", "Content Creator", "Debater", "Creator."],
             typeSpeed: 70,
             loop: false,
         });
